@@ -1,0 +1,33 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+		},
+	  {
+      "path" : "pages/news/news",
+      "style" : {}
+    },
+    {
+      "path" : "pages/section/section"
+    },
+    {
+      "path" : "pages/comments/comments"
+    },
+    {
+      "path" : "pages/user/user",
+      "style" : {}
+    },
+    {
+      "path" : "pages/favorite/favorite",
+      "style" : {}
+    }
+  ],
+	"globalStyle": {
+    "navigationBarTitleText": "知乎日报",
+		"navigationStyle": "custom",
+    "enablePullDownRefresh": false
+	}
+}
